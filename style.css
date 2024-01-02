@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+h1, p, a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+hr{
+    border: solid white 3px;
+}
+
+#banner-con{
+    position: relative;
+    width: 1200px;
+    height: 200px;
+}
+
+#banner{
+    width: 1200px;
+    height: 200px;
+    border-bottom: white solid 5px;
+}
+
+#pfp{
+    border: solid white 5px;
+    border-radius: 30%;
+    height: 200px;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 50%;
+    left: 50%;
+    z-index: 0.5;
+}
